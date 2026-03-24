@@ -5,7 +5,13 @@ Claude Code skill for generating architecture diagrams. Renders Mermaid diagrams
 ## Install
 
 ```bash
-ln -sf /path/to/draw-arch ~/.claude/skills/draw-arch
+npx skills add me-frankan/draw-arch
+```
+
+Or globally:
+
+```bash
+npx skills add me-frankan/draw-arch -g
 ```
 
 ## Usage
